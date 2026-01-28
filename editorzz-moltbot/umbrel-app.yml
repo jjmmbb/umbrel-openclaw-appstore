@@ -1,10 +1,10 @@
 id: editorzz-moltbot
 name: Moltbot
 version: "2026.1.27"
-description: Self-hosted Moltbot Gateway
+description: Self hosted Moltbot Gateway
 releaseNotes: Initial Umbrel release
-developer: Guido Marsch
-website: https://github.com/moltbot/moltbot
+developer: EditorZZ
+website: https://github.com/EditorZZ/umbrel-moltbot-appstore
 support: https://github.com/moltbot/moltbot/issues
 port: 18789
 category: Developer Tools
