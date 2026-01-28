@@ -1,18 +1,17 @@
+manifestVersion: 1
 id: editorzz-moltbot
+category: developer
 name: Moltbot
 version: "2026.1.27"
-description: Self hosted Moltbot Gateway
-releaseNotes: Initial Umbrel release
-developer: EditorZZ
-website: https://github.com/EditorZZ/umbrel-moltbot-appstore
+tagline: Self hosted Moltbot Gateway
+description: >-
+  Moltbot Gateway auf Umbrel. Nach der Installation erreichst du das Dashboard über Umbrel, also im sicheren Kontext über https.
+releaseNotes: ""
+developer: Guido Marsch
+website: https://docs.molt.bot
+repo: https://github.com/moltbot/moltbot
 support: https://github.com/moltbot/moltbot/issues
 port: 18789
-category: Developer Tools
-icon: https://raw.githubusercontent.com/moltbot/moltbot/main/docs/logo.png
-
+gallery: []
+path: ""
 dependencies: []
-
-env:
-  - name: CLAWDBOT_GATEWAY_TOKEN
-    description: Moltbot Gateway Token
-    required: true
