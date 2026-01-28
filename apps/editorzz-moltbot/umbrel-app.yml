@@ -1,11 +1,11 @@
-id: moltbot
+id: editorzz-moltbot
 name: Moltbot
 version: "2026.1.27"
-tagline: Personal AI Assistant Gateway
-description: Moltbot Gateway with WebChat and Control UI
-developer: Moltbot Community
+description: Self-hosted Moltbot Gateway
+releaseNotes: Initial Umbrel release
+developer: Guido Marsch
 website: https://github.com/moltbot/moltbot
-repo: https://github.com/moltbot/moltbot
-support: https://github.com/moltbot/moltbot/discussions
+support: https://github.com/moltbot/moltbot/issues
 port: 18789
-path: /
+category: Developer Tools
+icon: https://raw.githubusercontent.com/moltbot/moltbot/main/docs/logo.png
