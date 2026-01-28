@@ -1,15 +1,19 @@
 version: "3.7"
 
 services:
-  app:
+  moltbot:
     image: ghcr.io/moltbot/moltbot:main
+    container_name: moltbot
     restart: unless-stopped
-    environment:
-      CLAWDBOT_GATEWAY_TOKEN: "DEIN_LANGES_TOKEN"
     command: >
       node dist/index.js gateway
-      --bind loopback
+      --bind lan
       --port 18789
       --allow-unconfigured
+    environment:
+      CLAWDBOT_GATEWAY_TOKEN: ${CLAWDBOT_GATEWAY_TOKEN}
+      NODE_ENV: production
+    ports:
+      - "18789:18789"
     volumes:
-      - ${APP_DATA_DIR}/clawd:/home/node/clawd
+      - ${APP_DATA_DIR}/data:/home/node/clawd
