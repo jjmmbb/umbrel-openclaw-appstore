@@ -20,4 +20,4 @@ services:
       NODE_ENV: production
       CLAWDBOT_GATEWAY_TOKEN: "${APP_SEED}"
     volumes:
-      - ${APP_DATA_DIR}/data:/home/node/clawd
+      - ${APP_DATA_DIR}/data/clawd:/home/node/clawd
