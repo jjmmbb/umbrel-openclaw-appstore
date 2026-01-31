@@ -3,12 +3,12 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: editorzz-moltbot_moltbot_1
+      APP_HOST: editorzz-openclaw_openclaw_1
       APP_PORT: 18789
       PROXY_AUTH_ADD: "false"
 
   moltbot:
-    image: ghcr.io/moltbot/moltbot:main
+    image: ghcr.io/openclaw/openclaw:main
     restart: unless-stopped
     command: >
       node dist/index.js gateway
